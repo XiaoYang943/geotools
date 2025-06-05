@@ -39,6 +39,7 @@ import org.geotools.gml3.GMLConfiguration;
 import org.geotools.gml3.v3_2.GML;
 import org.geotools.xsd.Configuration;
 import org.geotools.xsd.Encoder;
+import org.geotools.xsd.XSD;
 import org.geotools.xsd.test.XMLTestSupport;
 import org.junit.Assert;
 import org.junit.Before;

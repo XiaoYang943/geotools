@@ -199,6 +199,7 @@ public class WMTSSpecification extends Specification {
             return baseUrl;
         }
 
+        // NOTE-hyy 构造WMTS的KVP
         /**
          * Returns the properties for KVP WMTS, as well as placeholder's for the specific parameters
          * of GetTile. Values passed in are expected to be already encoded appropriately for use in

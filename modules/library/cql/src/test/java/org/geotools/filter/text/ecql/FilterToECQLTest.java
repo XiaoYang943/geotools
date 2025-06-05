@@ -53,7 +53,7 @@ public class FilterToECQLTest extends FilterToCQLTest {
     public void likeWithFunction() throws Exception {
         cqlTest("strConcat('aa','bbcc') LIKE '%bb%'");
     }
-
+    // NOTE-hyy CQL转Filter
     @Override
     protected void cqlTest(String cql) throws Exception {
         Filter filter = ECQL.toFilter(cql);

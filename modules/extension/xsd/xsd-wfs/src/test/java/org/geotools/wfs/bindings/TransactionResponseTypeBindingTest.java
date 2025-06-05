@@ -39,7 +39,7 @@ import org.junit.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
-
+// NOTE-hyy WFS-T响应
 public class TransactionResponseTypeBindingTest extends WFSTestSupport {
 
     public TransactionResponseTypeBindingTest() {

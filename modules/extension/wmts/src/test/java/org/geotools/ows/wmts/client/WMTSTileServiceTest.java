@@ -130,7 +130,7 @@ public class WMTSTileServiceTest {
         Assert.assertFalse("Tiles shouldn't be empty.", tiles2.isEmpty());
         Assert.assertEquals("There should be two tiles.", 2, tiles2.size());
     }
-
+    // NOTE-hyy 创建WMTS服务
     private WMTSTileService createWMTSTileService() throws Exception {
         String templateUrl = "http://dummy.net/wmts";
         String tileMatrixSetIdentifier = "UTM33";

@@ -74,7 +74,7 @@ public class WFS_2_0_0_ParsingTest {
 
     @Before
     public void setUp() throws Exception {}
-
+    // NOTE-hyy 解析wfs文档
     @Test
     public void testParseEmptyGetCapabilities() throws Exception {
         String xml =

@@ -52,7 +52,7 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.Point;
 import org.w3c.dom.Document;
-
+// NOTE-hyy 解析Transaction
 public class TransactionTypeBindingTest extends WFSTestSupport {
 
     @Override

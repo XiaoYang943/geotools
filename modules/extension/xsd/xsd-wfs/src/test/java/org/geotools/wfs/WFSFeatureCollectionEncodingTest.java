@@ -31,7 +31,7 @@ import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.Point;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-
+// NOTE-hyy 编码GetFeature为xml
 public class WFSFeatureCollectionEncodingTest {
 
     FeatureCollectionType fc;

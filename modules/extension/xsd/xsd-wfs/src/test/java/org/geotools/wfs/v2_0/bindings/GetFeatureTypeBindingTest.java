@@ -20,7 +20,7 @@ import org.geotools.api.filter.spatial.DWithin;
 import org.geotools.api.filter.spatial.Disjoint;
 import org.geotools.wfs.v2_0.WFSTestSupport;
 import org.junit.Test;
-
+// NOTE-hyy 解析GetFeature-xml
 public class GetFeatureTypeBindingTest extends WFSTestSupport {
     @Test
     public void testParse1() throws Exception {
